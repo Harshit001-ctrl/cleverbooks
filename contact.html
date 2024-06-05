@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+     <!-- Font Awesome -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    
+     <style>
+           .main{
+            height: 910px;
+            width: 100%;
+            background-image: url("https://images.unsplash.com/photo-1499346030926-9a72daac6c63?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .inner{
+            height: 580px;
+            width: 1000px;
+            /* border: 2px solid wheat; */
+            background-color: transparent;
+            position:absolute;
+            top: 190px;
+            left: 450px;
+            backdrop-filter: blur(6px);
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+     </style>
+</head>
+<body>
+    <div class="main">
+        <div class="inner">
+            <div class="mt-2 row p-3">
+                <div class="col-2"><label for="name" class="form-label">First Name <span class="required">*</span></label></div>
+                <div class="col-3"><input type="text" name="name" id="" class="form-control" required></div>
+
+                <div class="col-2"><label for="surname" class="form-label">Surname <span class="required">*</span></label></div>
+                <div class="col-3"><input type="text" name="surname" id="" class="form-control" required></div>
+            </div>
+            <div class="mt-2 row p-3">
+                <div class="col-2"><label for="email" class="form-label">Your Email<span class="required">*</span></label></div>
+                <div class="col-8"><input type="email" name="email" id="" class="form-control" required></div>
+            </div>
+            <div class="mt-2 row p-3">
+                <div class="col-2"><label for="number" class="form-label">Contact <span class="required">*</span></label></div>
+                <div class="col-8"><input type="tel" name="number" id="" class="form-control" required></div>
+            </div>
+
+
+            <div class="mt-2 row p-3">
+                <div class="col-2"><label for="date" class="form-label">Date <span class="required">*</span></label></div>
+                <div class="col-8"><input type="date" name="date" id="" class="form-control" required></div>
+            </div>
+            <div class="mt-2 row p-3">
+                <div class="col-2"><label for="time" class="form-label">Time <span class="required">*</span></label></div>
+                <div class="col-8"><input type="time" name="time" id="" class="form-control" required></div>
+            </div>
+            <div class="mt-2 row p-3">
+                <div class="col-2"><label for="duration" class="form-label">Meeting Duration <span class="required">*</span></label></div>
+                <div class="col-8"><input type="time" name="duration" id="" class="form-control" required></div>
+            </div>
+           
+            <button type="submit" class="btn btn-primary" name="submit" >Submit</button>
+
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
